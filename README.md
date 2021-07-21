@@ -11,6 +11,9 @@
 - [x] Has button to accept the password
 - [x] Toggles modal if password is accepted
 
+## Snippets
+![Demo](snippets/demo.gif)
+
 ## Tech
 
 - [ReactJS] - UI framework

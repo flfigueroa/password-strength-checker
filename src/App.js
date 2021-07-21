@@ -236,7 +236,7 @@ function App() {
                     </p>
                   </div>
                 ) : (
-                  <p>{suggestions}</p>
+                  <p></p>
                 )}
               </div>
             </React.Fragment>
