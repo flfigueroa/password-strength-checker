@@ -1,0 +1,142 @@
+/* Reset styles */
+html,
+body,
+body * {
+  box-sizing: border-box;
+  font-family: "Tahoma", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  /* background-color: inherit; */
+  /* border: 2px solid orange; */
+}
+
+body {
+  /* background-image: url(./assets/pic.jpg); */
+  background-image: url(./assets/bg.png);
+  background-size: cover;
+  background-position: center center;
+}
+.container {
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.login-register-wrapper {
+  height: 520px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 2em;
+  border-radius: 5px;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  color: #ffffff;
+  /* background: linear-gradient(
+    180deg,
+    rgba(19, 38, 79, 1) 0%,
+    rgba(22, 147, 198, 1) 52%,
+    rgba(255, 255, 255, 0) 82%
+  ); */
+  background: black;
+}
+
+.login-register-wrapper #password {
+  color: black;
+}
+
+/* title */
+.title {
+  width: 100%;
+  height: 20px;
+  padding-top: 25px;
+  opacity: 1;
+  margin-bottom: 4em;
+  text-align: center;
+}
+
+/* form styling */
+.form-group input {
+  width: 100%;
+  height: 35px;
+  /* padding-left: 15px; */
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background: white;
+  text-align: center;
+}
+.form-group #icon {
+  cursor: pointer;
+  margin-left: 400px;
+  margin-top: -50px;
+  color: black;
+}
+
+button.submit {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1em;
+  text-align: center;
+  color: black;
+  padding: 8px 0px;
+  width: 100%;
+  height: 35px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 23px;
+  background-color: white;
+}
+
+#submit_able {
+  background-color: white;
+}
+
+#submit_disable {
+  background-color: gray;
+}
+
+#progress-bar {
+  margin: 36px;
+  margin-bottom: 10px;
+}
+
+.data {
+  width: 100%;
+  height: 260px;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  background: white;
+  text-align: center;
+}
+
+#data {
+  color: black;
+}
+
+#danger {
+  color: #d9534f;
+}
+
+#average {
+  color: #f0ad4e;
+}
+
+#success {
+  color: #5cb85c;
+}
+
+#suggestions_block {
+  /* padding: 5px; */
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
+}
+
+#suggestions_title {
+  font-weight: bold;
+}
